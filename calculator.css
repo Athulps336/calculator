@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    
+    
+}
+.cal{
+    background-color: rgb(148, 140, 140);
+    padding: 20px;
+    border-radius: 10px;
+    border: 5px rgb(246, 11, 11) solid;
+
+}
+.cal form button{
+    border: 0px;
+    outline: 0;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+   
+    border: 1px red solid;
+
+}
+.button-digit:hover{
+    background-color: rgb(76, 69, 69);
+}
+
+
+.cal form input{
+    width:100%;
+    height:40px;
+}
